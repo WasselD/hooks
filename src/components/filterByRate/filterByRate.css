@@ -1,0 +1,22 @@
+.filter-rate-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  border: 1px solid #d4d4d8;
+  border-radius: 8px;
+  padding: 0 14px;
+  height: 38px;
+}
+
+.filter-rate-label {
+  font-size: 13px;
+  color: #71717a;
+  white-space: nowrap;
+}
+
+.filter-rate-hint {
+  font-size: 12px;
+  color: #71717a;
+  white-space: nowrap;
+}

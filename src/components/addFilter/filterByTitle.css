@@ -1,0 +1,21 @@
+.filter-title-input {
+  height: 38px;
+  min-width: 220px;
+  font-size: 14px;
+  border: 1px solid #d4d4d8;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #18181b;
+  padding: 0 12px;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.filter-title-input:focus {
+  border-color: #a1a1aa;
+  box-shadow: 0 0 0 3px rgba(113, 113, 122, 0.15);
+  outline: none;
+}
+
+.filter-title-input::placeholder {
+  color: #a1a1aa;
+}

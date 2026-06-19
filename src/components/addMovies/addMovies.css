@@ -1,0 +1,30 @@
+.add-movie-btn {
+  height: 38px;
+  padding: 0 16px;
+  font-size: 14px;
+  border-radius: 8px !important;
+  white-space: nowrap;
+}
+
+.add-movie-modal-body {
+  padding: 1.25rem 1.5rem !important;
+}
+
+.add-movie-modal-body .form-label {
+  font-size: 13px;
+  font-weight: 500;
+  color: #3f3f46;
+  margin-bottom: 5px;
+}
+
+.add-movie-modal-body .form-control {
+  font-size: 14px;
+  border-radius: 8px;
+  border: 1px solid #d4d4d8;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.add-movie-modal-body .form-control:focus {
+  border-color: #a1a1aa;
+  box-shadow: 0 0 0 3px rgba(113, 113, 122, 0.15);
+}
