@@ -1,8 +1,6 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-// FIX: was importing FilterByRate (a filter input) and using it as a display
-// component — that crashes because FilterByRate expects searchRate + setSearchRate.
-// StarDisplay is a separate read-only component that just shows the rating.
+
 import StarDisplay from '../StarDisplay/StarDisplay';
 import './movieCard.css';
 
